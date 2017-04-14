@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>一杯咖啡，一個環球夢-特色咖啡館開店計畫</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>首頁</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>組員介紹</a>
+            </li>
+            <li>
+                <a href="#intro" onclick=$("#menu-close").click();>航程起源</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>重點項目</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>一杯咖啡，一個環球夢</h1>
+            <h3>—跟隨麥哲倫，一起品嚐世界的腳步</h3>
+            <br>
+            <a href="#teammate" class="btn btn-dark btn-lg">更多訊息...</a>
+        </div>
+    </header>
+    <!-- Services -->
+    <section id="teammate" class="services">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2>組員</h2>
+                    <hr class="large">
+                    <br>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-4 col-md-offset-2 col-sm-12">
+                        <div class="service-item">
+                            <img class="img-circle img-center img-responsive" src="/img/Yogurt.png" alt="" style="margin:auto " width="200px" height="200px">
+                            <h3>施承佑</h3>
+                            <p>國立臺北大學會計系二年級</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-item">
+                            <img class="img-circle img-center img-responsive" src="/img/Lin.png" alt="" style="margin:auto " width="200px" height="200px">
+                            <h3>林宏澤</h3>
+                            <p>國立臺北大學會計系二年級</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-item">
+                            <img class="img-circle img-center img-responsive" src="/img/Lee.png" alt="" style="margin:auto " width="200px" height="200px">
+                            <h3>李亭瑩</h3>
+                            <p>國立臺北大學會計系二年級</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-item">
+                            <img class="img-circle img-center img-responsive" src="/img/Zheng.png" alt="" style="margin:auto " width="200px" height="200px">
+                            <h3>鄭人豪</h3>
+                            <p>國立臺北大學會計系ㄧ年級</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-item">
+                            <img class="img-circle img-center img-responsive" src="/img/Keng.png" alt="" style="margin:auto " width="200px" height="200px">
+                            <h3>耿楷寗</h3>
+                            <p>國立臺北大學資工系三年級</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+     <!-- Portfolio -->
+    <section id="intro" class="intro bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-1 col-sm-12">
+                    <h3>紀念第一位環遊世界的人-麥哲倫<hr class="medium"><br>
+                    <small style="color:white">西元1519年麥哲倫從西班牙南部的聖盧卡爾港出航，於1522年完成人類史上首次的環球航行，雖在航程中被殺害，但仍被世人認為是第一為環球一周的人類</small></h3>
+                </div>
+                <div class="col-md-4  col-sm-12">
+                    <img src="img/Magellan.jpg" class="img-responsive">
+                </div>
+            </div>     
+                <!-- /.col-lg-10 -->
+            </div>
+             <br>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->   
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>路線規劃</h2>
+                    <hr class="small">
+                    <img class="img-responsive" src="img/map.png" style="margin:auto" width="100%">
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Map -->
+    <!--<div id="map" style="width: 100%; height: 839px;"></div>-->
+    
+    <section id="donate" class="donate">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>贊助計畫</h2>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Start Bootstrap</strong>
+                    </h4>
+                    <p>3481 Melrose Place
+                        <br>Beverly Hills, CA 90210</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    /*AmCharts.makeChart("map",{
+					"type": "map",
+					"pathToImages": "http://www.amcharts.com/lib/3/images/",
+					"addClassNames": true,
+					"fontSize": 15,
+					"color": "#FFFFFF",
+					"projection": "mercator",
+					"backgroundAlpha": 1,
+					"backgroundColor": "rgba(80,80,80,1)",
+					"dataProvider": {
+						"map": "worldLow",
+						"getAreasFromMap": true,
+						"images": [
+							{
+								"top": 40,
+								"left": 60,
+								"width": 80,
+								"height": 40,
+								"pixelMapperLogo": true,
+								"imageURL": "http://pixelmap.amcharts.com/static/img/logo.svg",
+								"url": "http://www.amcharts.com"
+							}
+						]
+					},
+					"balloon": {
+						"horizontalPadding": 15,
+						"borderAlpha": 0,
+						"borderThickness": 1,
+						"verticalPadding": 15
+					},
+					"areasSettings": {
+						"color": "rgba(129,129,129,1)",
+						"outlineColor": "rgba(80,80,80,1)",
+						"rollOverOutlineColor": "rgba(80,80,80,1)",
+						"rollOverBrightness": 20,
+						"selectedBrightness": 20,
+						"selectable": true,
+						"unlistedAreasAlpha": 0,
+						"unlistedAreasOutlineAlpha": 0
+					},
+					"imagesSettings": {
+						"alpha": 1,
+						"color": "rgba(129,129,129,1)",
+						"outlineAlpha": 0,
+						"rollOverOutlineAlpha": 0,
+						"outlineColor": "rgba(80,80,80,1)",
+						"rollOverBrightness": 20,
+						"selectedBrightness": 20,
+						"selectable": true
+					},
+					"linesSettings": {
+						"color": "rgba(129,129,129,1)",
+						"selectable": true,
+						"rollOverBrightness": 20,
+						"selectedBrightness": 20
+					},
+					"zoomControl": {
+						"zoomControlEnabled": true,
+						"homeButtonEnabled": false,
+						"panControlEnabled": false,
+						"right": 38,
+						"bottom": 30,
+						"minZoomLevel": 1,
+						"gridHeight": 100,
+						"gridAlpha": 0.1,
+						"gridBackgroundAlpha": 0,
+						"gridColor": "#FFFFFF",
+						"draggerAlpha": 1,
+						"buttonCornerRadius": 2
+					}
+				});*/
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
